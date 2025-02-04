@@ -1,7 +1,8 @@
 import {} from 'react'
 import { useSelector, useDispatch } from 'react-redux';
-import { increment, decrement, reset } from './features/counter/counterSlice';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { increment,decrement, reset } from './features/counter/counterSlice.js';
+
 import './App.css';
 
 function App() {
